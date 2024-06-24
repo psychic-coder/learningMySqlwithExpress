@@ -1,10 +1,10 @@
 import mysql from "mysql2";
 
 const pool=mysql.createPool({
-    host:"127.0.0.1",
-    user:"root",
-    password:"ROHITPEN",
-    database:"notes"
+    host:"",//127.0.0.1
+    user:"",//database username
+    password:"",//databse password
+    database:""//database name
 }).promise()
 
 //we can also fetch the data in the below method
